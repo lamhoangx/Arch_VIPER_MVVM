@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AddContactWireFrame.dismissAddContactInterface(from:completion:):AddContactWireFrame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view as? UIViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ContactLocalDataManager.retrieveContactList():MVVMContactLocalDataManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "MVVMCoreDataStore.contactsFake">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VIPERContactListView.tableView(_:cellForRowAt:):VIPERContactListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableView.dequeueReusableCell(withIdentifier: &quot;VIPERContactCell&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "VIPERContactListWireFrame.presentAddContactScreen(from:):VIPERContactListWireFrame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.presenter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__pthread_kill:(null)">
+      </ContextState>
+      <ContextState
+         contextName = "MVVMContactsViewController.prepare(for:sender:):MVVMContactsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destination">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AddContactPresenter.addNewContact(firstName:lastName:):AddContactPresenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "wireFrame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MVVMContactsViewController.tableView(_:cellForRowAt:):MVVMContactsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "tableView.dequeueReusableCell(withIdentifier: &quot;MVVMContactCell&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MVVMAddContactViewController.actionDone(_:):MVVMAddContactViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.contactsViewModelController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MVVMContactsTableViewCell.bindViewModel():MVVMContactsTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cellModel?.fullName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "static VIPERContactListWireFrame.createContactListModule():VIPERContactListWireFrame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navController.children">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in MVVMContactViewModelController.retrieveContacts(_:failure:):MVVMContactViewModelController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "$0.fullName">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
