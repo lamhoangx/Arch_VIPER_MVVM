@@ -1,16 +1,16 @@
 //
-//  VIPERContactListInteractor.swift
+//  ViperContactListInteractor.swift
 //  Arch_mvvm_viper
 //
-//  Created by LamHX on 10/5/20.
+//  Created by LamHX on 10/8/20.
 //
 
 import Foundation
 
-class VIPERContactListInteractor: ContactListInteractorProtocol {
-    weak var presenter: ContactListInteractorDelegate?
-    var dataManager: ContactListDataManagerProtocol?
-    
+class ViperContactListInteractor: ViperContactListInteractorProtocol {
+    weak var presenter: ViperContactListInteractorDelegate?
+    var dataManager: ViperContactListDataManagerProtocol?
+
     func retrieveContacts() {
         if let contactList = dataManager?.retrieveContactList() {
             presenter?.didRetrieveContacts(contactList)
@@ -19,3 +19,4 @@ class VIPERContactListInteractor: ContactListInteractorProtocol {
         }
     }
 }
+

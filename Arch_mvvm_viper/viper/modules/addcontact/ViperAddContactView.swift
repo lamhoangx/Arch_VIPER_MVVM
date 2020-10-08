@@ -1,16 +1,16 @@
 //
-//  AddContactView.swift
+//  ViperAddContactView.swift
 //  Arch_mvvm_viper
 //
-//  Created by LamHX on 10/5/20.
+//  Created by LamHX on 10/8/20.
 //
 
 import Foundation
 import UIKit
 
-class VIPERAddContactView: UIViewController, AddContactViewProtocol {
-    weak var presenter: AddContactPresenterProtocol?
-    
+class ViperAddContactView: UIViewController, ViperAddContactViewProtocol {
+    var presenter: ViperAddContactPresenterProtocol?
+
     @IBOutlet weak var inputFirstName: UITextField!
     @IBOutlet weak var inputLastName: UITextField!
     
@@ -37,14 +37,5 @@ class VIPERAddContactView: UIViewController, AddContactViewProtocol {
         }
         presenter?.addNewContact(firstName: firstName, lastName: lastName)
     }
-}
-
-extension VIPERAddContactView: AddContactPresenterDelegate {
-    func didAddContact(_ contact: ContactModel) {
-        
-    }
     
-    func didCancelAddContact() {
-        
-    }
 }

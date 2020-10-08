@@ -22,18 +22,20 @@
 		C9351417252728F000135B4F /* ContactsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9351416252728F000135B4F /* ContactsDataManager.swift */; };
 		C9351425252733B700135B4F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9351424252733B700135B4F /* Extensions.swift */; };
 		C93514302527372200135B4F /* MVVMAddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C935142F2527372200135B4F /* MVVMAddContactViewController.swift */; };
-		C9B418D2252AF6EE00371AEA /* VIPERAddContactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B418D1252AF6EE00371AEA /* VIPERAddContactProtocol.swift */; };
-		C9B418E0252AF7B100371AEA /* VIPERAddContactRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B418DF252AF7B100371AEA /* VIPERAddContactRouter.swift */; };
-		C9B418E8252AF7FD00371AEA /* VIPERAddContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B418E7252AF7FD00371AEA /* VIPERAddContactPresenter.swift */; };
-		C9B418ED252AF83C00371AEA /* VIPERAddContactInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B418EC252AF83C00371AEA /* VIPERAddContactInteractor.swift */; };
-		C9B418F7252B149700371AEA /* VIPERAddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B418F6252B149700371AEA /* VIPERAddContactView.swift */; };
+		C9BF0539252F33270012379E /* ViperContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0533252F33270012379E /* ViperContactListPresenter.swift */; };
+		C9BF053A252F33270012379E /* ViperContactListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0534252F33270012379E /* ViperContactListRouter.swift */; };
+		C9BF053B252F33270012379E /* ViperContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0535252F33270012379E /* ViperContactListInteractor.swift */; };
+		C9BF053C252F33270012379E /* ViperContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0536252F33270012379E /* ViperContactListView.swift */; };
+		C9BF053D252F33270012379E /* ViperContactListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0537252F33270012379E /* ViperContactListProtocol.swift */; };
+		C9BF053E252F33270012379E /* ViperContactListDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0538252F33270012379E /* ViperContactListDataManager.swift */; };
+		C9BF0548252F3D090012379E /* ViperAddContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0542252F3D090012379E /* ViperAddContactPresenter.swift */; };
+		C9BF0549252F3D090012379E /* ViperAddContactRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0543252F3D090012379E /* ViperAddContactRouter.swift */; };
+		C9BF054A252F3D090012379E /* ViperAddContactInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0544252F3D090012379E /* ViperAddContactInteractor.swift */; };
+		C9BF054B252F3D090012379E /* ViperAddContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0545252F3D090012379E /* ViperAddContactView.swift */; };
+		C9BF054C252F3D090012379E /* ViperAddContactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0546252F3D090012379E /* ViperAddContactProtocol.swift */; };
+		C9BF054D252F3D090012379E /* ViperAddContactDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF0547252F3D090012379E /* ViperAddContactDataManager.swift */; };
 		C9F8296D25285E29000FF3E5 /* VIPERContacts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F8296C25285E29000FF3E5 /* VIPERContacts.storyboard */; };
 		C9F829782529AE5F000FF3E5 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F829772529AE5F000FF3E5 /* CoreDataStore.swift */; };
-		C9F829832529B1DF000FF3E5 /* VIPERContactListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F829822529B1DF000FF3E5 /* VIPERContactListProtocols.swift */; };
-		C9F82991252A32ED000FF3E5 /* VIPERContactListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F82990252A32ED000FF3E5 /* VIPERContactListView.swift */; };
-		C9F82999252A4335000FF3E5 /* VIPERContactListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F82998252A4335000FF3E5 /* VIPERContactListRouter.swift */; };
-		C9F8299E252AC81C000FF3E5 /* VIPERContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F8299D252AC81C000FF3E5 /* VIPERContactListPresenter.swift */; };
-		C9F829A3252ACA3A000FF3E5 /* VIPERContactListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F829A2252ACA3A000FF3E5 /* VIPERContactListInteractor.swift */; };
 		C9F829A9252ACB56000FF3E5 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F829A8252ACB56000FF3E5 /* ContactModel.swift */; };
 		C9F829AE252ACB87000FF3E5 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F829AD252ACB87000FF3E5 /* ContactViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -77,18 +79,20 @@
 		C9351416252728F000135B4F /* ContactsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsDataManager.swift; sourceTree = "<group>"; };
 		C9351424252733B700135B4F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C935142F2527372200135B4F /* MVVMAddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMAddContactViewController.swift; sourceTree = "<group>"; };
-		C9B418D1252AF6EE00371AEA /* VIPERAddContactProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VIPERAddContactProtocol.swift; sourceTree = "<group>"; };
-		C9B418DF252AF7B100371AEA /* VIPERAddContactRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERAddContactRouter.swift; sourceTree = "<group>"; };
-		C9B418E7252AF7FD00371AEA /* VIPERAddContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERAddContactPresenter.swift; sourceTree = "<group>"; };
-		C9B418EC252AF83C00371AEA /* VIPERAddContactInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERAddContactInteractor.swift; sourceTree = "<group>"; };
-		C9B418F6252B149700371AEA /* VIPERAddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPERAddContactView.swift; sourceTree = "<group>"; };
+		C9BF0533252F33270012379E /* ViperContactListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContactListPresenter.swift; sourceTree = "<group>"; };
+		C9BF0534252F33270012379E /* ViperContactListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContactListRouter.swift; sourceTree = "<group>"; };
+		C9BF0535252F33270012379E /* ViperContactListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContactListInteractor.swift; sourceTree = "<group>"; };
+		C9BF0536252F33270012379E /* ViperContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContactListView.swift; sourceTree = "<group>"; };
+		C9BF0537252F33270012379E /* ViperContactListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContactListProtocol.swift; sourceTree = "<group>"; };
+		C9BF0538252F33270012379E /* ViperContactListDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperContactListDataManager.swift; sourceTree = "<group>"; };
+		C9BF0542252F3D090012379E /* ViperAddContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperAddContactPresenter.swift; sourceTree = "<group>"; };
+		C9BF0543252F3D090012379E /* ViperAddContactRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperAddContactRouter.swift; sourceTree = "<group>"; };
+		C9BF0544252F3D090012379E /* ViperAddContactInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperAddContactInteractor.swift; sourceTree = "<group>"; };
+		C9BF0545252F3D090012379E /* ViperAddContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperAddContactView.swift; sourceTree = "<group>"; };
+		C9BF0546252F3D090012379E /* ViperAddContactProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperAddContactProtocol.swift; sourceTree = "<group>"; };
+		C9BF0547252F3D090012379E /* ViperAddContactDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViperAddContactDataManager.swift; sourceTree = "<group>"; };
 		C9F8296C25285E29000FF3E5 /* VIPERContacts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VIPERContacts.storyboard; sourceTree = "<group>"; };
 		C9F829772529AE5F000FF3E5 /* CoreDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStore.swift; sourceTree = "<group>"; };
-		C9F829822529B1DF000FF3E5 /* VIPERContactListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VIPERContactListProtocols.swift; path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/contactlist/protocol/VIPERContactListProtocols.swift; sourceTree = "<absolute>"; };
-		C9F82990252A32ED000FF3E5 /* VIPERContactListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VIPERContactListView.swift; path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/contactlist/view/VIPERContactListView.swift; sourceTree = "<absolute>"; };
-		C9F82998252A4335000FF3E5 /* VIPERContactListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VIPERContactListRouter.swift; path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/contactlist/router/VIPERContactListRouter.swift; sourceTree = "<absolute>"; };
-		C9F8299D252AC81C000FF3E5 /* VIPERContactListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VIPERContactListPresenter.swift; path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/contactlist/presenter/VIPERContactListPresenter.swift; sourceTree = "<absolute>"; };
-		C9F829A2252ACA3A000FF3E5 /* VIPERContactListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VIPERContactListInteractor.swift; path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/contactlist/interactor/VIPERContactListInteractor.swift; sourceTree = "<absolute>"; };
 		C9F829A8252ACB56000FF3E5 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		C9F829AD252ACB87000FF3E5 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -237,100 +241,6 @@
 			path = utils;
 			sourceTree = "<group>";
 		};
-		C9B418CA252AF55900371AEA /* entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = entity;
-			sourceTree = "<group>";
-		};
-		C9B418D0252AF6EE00371AEA /* protocol */ = {
-			isa = PBXGroup;
-			children = (
-				C9B418D1252AF6EE00371AEA /* VIPERAddContactProtocol.swift */,
-			);
-			path = protocol;
-			sourceTree = "<group>";
-		};
-		C9B418D9252AF76E00371AEA /* view */ = {
-			isa = PBXGroup;
-			children = (
-				C9B418F6252B149700371AEA /* VIPERAddContactView.swift */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		C9B418DA252AF77300371AEA /* presenter */ = {
-			isa = PBXGroup;
-			children = (
-				C9B418E7252AF7FD00371AEA /* VIPERAddContactPresenter.swift */,
-			);
-			path = presenter;
-			sourceTree = "<group>";
-		};
-		C9B418DB252AF77B00371AEA /* router */ = {
-			isa = PBXGroup;
-			children = (
-				C9B418DF252AF7B100371AEA /* VIPERAddContactRouter.swift */,
-			);
-			path = router;
-			sourceTree = "<group>";
-		};
-		C9B418DC252AF78500371AEA /* interactor */ = {
-			isa = PBXGroup;
-			children = (
-				C9B418EC252AF83C00371AEA /* VIPERAddContactInteractor.swift */,
-			);
-			path = interactor;
-			sourceTree = "<group>";
-		};
-		C9B418DD252AF78C00371AEA /* entity */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = entity;
-			sourceTree = "<group>";
-		};
-		C9B418DE252AF79800371AEA /* datamanager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = datamanager;
-			sourceTree = "<group>";
-		};
-		C9F8296125285C3F000FF3E5 /* view */ = {
-			isa = PBXGroup;
-			children = (
-				C9F82990252A32ED000FF3E5 /* VIPERContactListView.swift */,
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		C9F8296225285C45000FF3E5 /* router */ = {
-			isa = PBXGroup;
-			children = (
-				C9F82998252A4335000FF3E5 /* VIPERContactListRouter.swift */,
-			);
-			name = router;
-			path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/contactlist/router;
-			sourceTree = "<absolute>";
-		};
-		C9F8296325285C56000FF3E5 /* presenter */ = {
-			isa = PBXGroup;
-			children = (
-				C9F8299D252AC81C000FF3E5 /* VIPERContactListPresenter.swift */,
-			);
-			path = presenter;
-			sourceTree = "<group>";
-		};
-		C9F8296425285C63000FF3E5 /* interactor */ = {
-			isa = PBXGroup;
-			children = (
-				C9F829A2252ACA3A000FF3E5 /* VIPERContactListInteractor.swift */,
-			);
-			path = interactor;
-			sourceTree = "<group>";
-		};
 		C9F8296625285C91000FF3E5 /* contactlist */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,12 +268,12 @@
 		C9F8297F2529B0B4000FF3E5 /* contactlist */ = {
 			isa = PBXGroup;
 			children = (
-				C9B418CA252AF55900371AEA /* entity */,
-				C9F829812529B19A000FF3E5 /* protocol */,
-				C9F8296425285C63000FF3E5 /* interactor */,
-				C9F8296325285C56000FF3E5 /* presenter */,
-				C9F8296225285C45000FF3E5 /* router */,
-				C9F8296125285C3F000FF3E5 /* view */,
+				C9BF0533252F33270012379E /* ViperContactListPresenter.swift */,
+				C9BF0534252F33270012379E /* ViperContactListRouter.swift */,
+				C9BF0535252F33270012379E /* ViperContactListInteractor.swift */,
+				C9BF0536252F33270012379E /* ViperContactListView.swift */,
+				C9BF0537252F33270012379E /* ViperContactListProtocol.swift */,
+				C9BF0538252F33270012379E /* ViperContactListDataManager.swift */,
 			);
 			path = contactlist;
 			sourceTree = "<group>";
@@ -371,25 +281,16 @@
 		C9F829802529B183000FF3E5 /* addcontact */ = {
 			isa = PBXGroup;
 			children = (
-				C9B418DE252AF79800371AEA /* datamanager */,
-				C9B418DD252AF78C00371AEA /* entity */,
-				C9B418DC252AF78500371AEA /* interactor */,
-				C9B418DB252AF77B00371AEA /* router */,
-				C9B418DA252AF77300371AEA /* presenter */,
-				C9B418D9252AF76E00371AEA /* view */,
-				C9B418D0252AF6EE00371AEA /* protocol */,
+				C9BF0542252F3D090012379E /* ViperAddContactPresenter.swift */,
+				C9BF0543252F3D090012379E /* ViperAddContactRouter.swift */,
+				C9BF0544252F3D090012379E /* ViperAddContactInteractor.swift */,
+				C9BF0545252F3D090012379E /* ViperAddContactView.swift */,
+				C9BF0546252F3D090012379E /* ViperAddContactProtocol.swift */,
+				C9BF0547252F3D090012379E /* ViperAddContactDataManager.swift */,
 			);
 			name = addcontact;
 			path = /Users/lamhx/lamhx_wsp/code_workspaces/Arch_mvvm_viper/Arch_mvvm_viper/viper/modules/addcontact;
 			sourceTree = "<absolute>";
-		};
-		C9F829812529B19A000FF3E5 /* protocol */ = {
-			isa = PBXGroup;
-			children = (
-				C9F829822529B1DF000FF3E5 /* VIPERContactListProtocols.swift */,
-			);
-			path = protocol;
-			sourceTree = "<group>";
 		};
 		C9F829A7252ACB46000FF3E5 /* model */ = {
 			isa = PBXGroup;
@@ -541,27 +442,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F82999252A4335000FF3E5 /* VIPERContactListRouter.swift in Sources */,
+				C9BF053E252F33270012379E /* ViperContactListDataManager.swift in Sources */,
 				C9F829782529AE5F000FF3E5 /* CoreDataStore.swift in Sources */,
 				C9351417252728F000135B4F /* ContactsDataManager.swift in Sources */,
 				C9F829AE252ACB87000FF3E5 /* ContactViewModel.swift in Sources */,
+				C9BF053D252F33270012379E /* ViperContactListProtocol.swift in Sources */,
 				C93513AB2527231000135B4F /* Arch_mvvm_viper.xcdatamodeld in Sources */,
 				C93513A52527231000135B4F /* ViewController.swift in Sources */,
 				C9351425252733B700135B4F /* Extensions.swift in Sources */,
-				C9F829832529B1DF000FF3E5 /* VIPERContactListProtocols.swift in Sources */,
-				C9B418D2252AF6EE00371AEA /* VIPERAddContactProtocol.swift in Sources */,
+				C9BF054B252F3D090012379E /* ViperAddContactView.swift in Sources */,
 				C93513A12527231000135B4F /* AppDelegate.swift in Sources */,
-				C9F829A3252ACA3A000FF3E5 /* VIPERContactListInteractor.swift in Sources */,
-				C9B418E0252AF7B100371AEA /* VIPERAddContactRouter.swift in Sources */,
+				C9BF0548252F3D090012379E /* ViperAddContactPresenter.swift in Sources */,
+				C9BF053C252F33270012379E /* ViperContactListView.swift in Sources */,
+				C9BF053B252F33270012379E /* ViperContactListInteractor.swift in Sources */,
+				C9BF054C252F3D090012379E /* ViperAddContactProtocol.swift in Sources */,
 				C93514302527372200135B4F /* MVVMAddContactViewController.swift in Sources */,
-				C9B418E8252AF7FD00371AEA /* VIPERAddContactPresenter.swift in Sources */,
+				C9BF054A252F3D090012379E /* ViperAddContactInteractor.swift in Sources */,
+				C9BF053A252F33270012379E /* ViperContactListRouter.swift in Sources */,
 				C93513A32527231000135B4F /* SceneDelegate.swift in Sources */,
-				C9B418ED252AF83C00371AEA /* VIPERAddContactInteractor.swift in Sources */,
-				C9B418F7252B149700371AEA /* VIPERAddContactView.swift in Sources */,
+				C9BF054D252F3D090012379E /* ViperAddContactDataManager.swift in Sources */,
 				C93514022527276500135B4F /* MVVMContactViewModelController.swift in Sources */,
-				C9F82991252A32ED000FF3E5 /* VIPERContactListView.swift in Sources */,
-				C9F8299E252AC81C000FF3E5 /* VIPERContactListPresenter.swift in Sources */,
 				C9F829A9252ACB56000FF3E5 /* ContactModel.swift in Sources */,
+				C9BF0539252F33270012379E /* ViperContactListPresenter.swift in Sources */,
+				C9BF0549252F3D090012379E /* ViperAddContactRouter.swift in Sources */,
 				C93513E62527250000135B4F /* MVVMContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

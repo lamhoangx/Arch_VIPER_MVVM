@@ -1,16 +1,17 @@
 //
-//  VIPERContactListView.swift
+//  ViperContactListView.swift
 //  Arch_mvvm_viper
 //
-//  Created by LamHX on 10/4/20.
+//  Created by LamHX on 10/8/20.
 //
 
 import Foundation
 import UIKit
 
-class VIPERContactListView: UIViewController, ContactListViewProtocol {
+class ViperContactListView: UIViewController, ViperContactListViewProtocol {
+    var presenter: ViperContactListPresenterProtocol?
+
     @IBOutlet weak var tableView: UITableView!
-    weak var presenter: ContactListPresenterProtocol?
     var contactList: [ContactViewModel] = []
 
     override func viewDidLoad() {
@@ -24,9 +25,11 @@ class VIPERContactListView: UIViewController, ContactListViewProtocol {
     @IBAction func openAddContactScreen(_ sender: Any) {
         presenter?.presentAddContact(from: self)
     }
+    
 }
 
-extension VIPERContactListView: ContactListPresenterDelegate {
+// Presenter -> View
+extension ViperContactListView {
 
     func reloadInterface(with contacts: [ContactViewModel]) {
         contactList = contacts
@@ -44,7 +47,7 @@ extension VIPERContactListView: ContactListPresenterDelegate {
     }
 }
 
-extension VIPERContactListView: UITableViewDataSource {
+extension ViperContactListView: UITableViewDataSource {
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "VIPERContactCell") else {

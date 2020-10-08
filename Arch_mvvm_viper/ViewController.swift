@@ -16,8 +16,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func startVIPER(_ sender: Any) {
-        let viperContact = VIPERContactListRouter.createContactListModule()
-        navigationController?.pushViewController(viperContact, animated: true)
+        if let viperContact = ViperContactListRouter.buildViperContactListView() {
+            navigationController?.pushViewController(viperContact, animated: true)
+        }
     }
     override func viewDidLoad() {
         super.viewDidLoad()

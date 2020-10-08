@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--VIPERContactList-->
+        <!--ViperContactList-->
         <scene sceneID="bR0-Zw-Z7F">
             <objects>
-                <viewController storyboardIdentifier="MAIN_VIPER" id="jfw-8e-en9" customClass="VIPERContactListView" customModule="Arch_mvvm_viper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MAIN_VIPER" id="jfw-8e-en9" customClass="ViperContactListView" customModule="Arch_mvvm_viper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2Dr-iQ-Jm4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,7 +58,7 @@
                             <constraint firstItem="x91-qY-kSs" firstAttribute="leading" secondItem="2Dr-iQ-Jm4" secondAttribute="leading" id="x3x-do-LQn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="VIPERContactList" id="qQ0-Nw-Aem">
+                    <navigationItem key="navigationItem" title="ViperContactList" id="qQ0-Nw-Aem">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="FEC-7B-m2g">
                             <connections>
                                 <action selector="openAddContactScreen:" destination="jfw-8e-en9" id="e6n-IA-RlD"/>
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="75.669642857142847"/>
         </scene>
-        <!--Add Contact View-->
+        <!--Viper Add Contact View-->
         <scene sceneID="mWv-L9-yOO">
             <objects>
-                <viewController storyboardIdentifier="ADD_CONTACT_VIPER" id="FnJ-78-COx" customClass="VIPERAddContactView" customModule="Arch_mvvm_viper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ADD_CONTACT_VIPER" id="FnJ-78-COx" customClass="ViperAddContactView" customModule="Arch_mvvm_viper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="76m-P9-biQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

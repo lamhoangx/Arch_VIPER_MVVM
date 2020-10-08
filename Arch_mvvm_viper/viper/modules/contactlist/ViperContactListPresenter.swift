@@ -1,29 +1,30 @@
 //
-//  VIPERContactListPresenter.swift
+//  ViperContactListPresenter.swift
 //  Arch_mvvm_viper
 //
-//  Created by LamHX on 10/5/20.
+//  Created by LamHX on 10/8/20.
 //
 
 import Foundation
-import UIKit
 
-class VIPERContactListPresenter: ContactListPresenterProtocol {
-    weak var view: ContactListPresenterDelegate?
-    var interactor: ContactListInteractorProtocol?
-    var router: ContactListRouterProtocol?
+class ViperContactListPresenter: ViperContactListPresenterProtocol {
     
+    var router: ViperContactListRouterProtocol?
+    weak var view: ViperContactListViewProtocol?
+    var interactor: ViperContactListInteractorProtocol?
+        
     func viewDidLoad() {
         // fetch data
         interactor?.retrieveContacts()
     }
     
-    func presentAddContact(from view: ContactListViewProtocol) {
+    func presentAddContact(from view: ViperContactListViewProtocol) {
         router?.presentAddContact(from: view)
     }
 }
 
-extension VIPERContactListPresenter: ContactListInteractorDelegate {
+// MARK: Interactor -> Presenter
+extension ViperContactListPresenter: ViperContactListInteractorDelegate {
     func didRetrieveContacts(_ contacts: [ContactModel]) {
         var contactsModelView = contacts.map() {
             ContactViewModel(fullName: $0.fullName)
@@ -33,7 +34,7 @@ extension VIPERContactListPresenter: ContactListInteractorDelegate {
     }
 }
 
-extension VIPERContactListPresenter: AddContactPresenterDelegate {
+extension ViperContactListPresenter: AddContactDelegate {
     func didAddContact(_ contact: ContactModel) {
         let contactViewModel = ContactViewModel(fullName: contact.fullName)
         view?.didInsertContact(contactViewModel)

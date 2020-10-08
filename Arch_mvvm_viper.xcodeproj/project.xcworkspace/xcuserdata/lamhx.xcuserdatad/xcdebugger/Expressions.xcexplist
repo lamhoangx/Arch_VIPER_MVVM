@@ -3,6 +3,14 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ViperContactListPresenter.viewDidLoad():ViperContactListPresenter.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "interactor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "AddContactWireFrame.dismissAddContactInterface(from:completion:):AddContactWireFrame.swift">
          <PersistentStrings>
             <PersistentString
@@ -35,6 +43,9 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "static ViperContactListRouter.buildViperContactListView():ViperContactListRouter.swift">
+      </ContextState>
+      <ContextState
          contextName = "__pthread_kill:(null)">
       </ContextState>
       <ContextState
@@ -42,6 +53,28 @@
          <PersistentStrings>
             <PersistentString
                value = "segue.destination">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViperContactListView.viewDidLoad():ViperContactListView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+            <PersistentString
+               value = "self.presenter">
+            </PersistentString>
+            <PersistentString
+               value = "presenter">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViperAddContactView.viewDidLoad():ViperAddContactView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "inputFirstName">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -62,6 +95,14 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "static VIPERContactListWireFrame.createContactListModule():VIPERContactListWireFrame.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navController.children">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "MVVMAddContactViewController.actionDone(_:):MVVMAddContactViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -74,14 +115,6 @@
          <PersistentStrings>
             <PersistentString
                value = "cellModel?.fullName">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "static VIPERContactListWireFrame.createContactListModule():VIPERContactListWireFrame.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "navController.children">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
