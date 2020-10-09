@@ -3,7 +3,7 @@ This sample used [Swift VIPER AutoGen](https://github.com/lamhoangx/iOS_SwiftVip
 > The template to quickly generates skeleton files that module need to apply VIPER architecture.
 
 # Screenshots
-Both of the architecture is the same screens
+Both of the architectures, screens is the same.
 <table>
     <tr>
         <td><img src="img/main.png" width="400"/></td>
