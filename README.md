@@ -29,13 +29,14 @@ Both of the architecture is the same screens
 ### Illustration VIPER
 
 [<img src="https://raw.githubusercontent.com/lamhoangx/iOS_SwiftViperAutoGen/master/img/overview.png" width="800"/>]()
+<br>
 See more at [Swift VIPER AutoGen](https://github.com/lamhoangx/iOS_SwiftViperAutoGen.git)
 
 ### Illustration MVVM
 [<img src="img/mvvm_diagram.png" width="800"/>]()
 
 # Summary
-As you see, VIPER is very clear and independent on each a module. MVVM is an easy to reach and brief but it isn't absolutely clear on responsible yet - on logic module, it is easy to bump. <br>
+As you see, VIPER is very clear and independent on each a module. MVVM is an easy to reach and brief but it isn't absolutely clear on responsible yet - on logic module, it is an easy to bump. <br>
 On the code size, MVVM produces much less code than VIPER cuz VIPER separation of concerns to easily maintain.<br>
 So, if you are prototyping or small project, MVVM can take care of, quickly deploy and still be easy maintain. And you are a long-term project, VIPER is a good deal.
 
